@@ -241,7 +241,7 @@ In order to parse the issued commands, we have to download a file which can be d
 
 
 
-The only argument that would need to be pased to the *downloadDBFile* function is the Dropbox path of the file we wish to download, which is named *dbFileName*. In the case of issuing commands, the name of the task file which contains commands is named in the beginning of the code in the var() section. The location of the task file should be in the root folder of Dropbox.
+The only argument that would need to be pased to the *downloadDBFile* function is the Dropbox path of the file we wish to download, which is named *dbFileName*. In the case of issuing commands, the name of the task file which contains commands is named in the main() function of the code. The location of the task file should be in the root folder of Dropbox.
 
 ```
 func downloadDBFile(dbFilePath string) string {
